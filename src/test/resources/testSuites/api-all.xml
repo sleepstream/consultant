@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All API Tests">
+    <test name="API Smoke tests"  parallel="classes">
+        <packages>
+            <package name="api.*"/>
+        </packages>
+    </test>
+</suite>
